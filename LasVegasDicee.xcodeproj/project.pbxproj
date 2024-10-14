@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		39125AC62AFBCA8D0012694A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39125AC52AFBCA8D0012694A /* Constants.swift */; };
 		394958FC2B868F0400741BE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394958FB2B868F0400741BE1 /* SceneDelegate.swift */; };
 		397345ED2A9BA981006D6FDC /* UIColot+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397345EC2A9BA981006D6FDC /* UIColot+Extension.swift */; };
+		39812A1A2CBD5F72006EDB3E /* DiceImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39812A192CBD5F72006EDB3E /* DiceImageHelper.swift */; };
 		39C3B15C2614F9E0003BAE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3B15B2614F9E0003BAE5C /* AppDelegate.swift */; };
 		39C3B1602614F9E0003BAE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3B15F2614F9E0003BAE5C /* ViewController.swift */; };
 		39C3B1632614F9E0003BAE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3B1612614F9E0003BAE5C /* Main.storyboard */; };
@@ -17,27 +18,11 @@
 		39C3B1682614F9E2003BAE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3B1662614F9E2003BAE5C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		39C3B16F2614F9E2003BAE5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39C3B1502614F9E0003BAE5C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39C3B1572614F9E0003BAE5C;
-			remoteInfo = Dice;
-		};
-		39C3B17A2614F9E2003BAE5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39C3B1502614F9E0003BAE5C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39C3B1572614F9E0003BAE5C;
-			remoteInfo = Dice;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		39125AC52AFBCA8D0012694A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		394958FB2B868F0400741BE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		397345EC2A9BA981006D6FDC /* UIColot+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColot+Extension.swift"; sourceTree = "<group>"; };
+		39812A192CBD5F72006EDB3E /* DiceImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceImageHelper.swift; sourceTree = "<group>"; };
 		39C3B1582614F9E0003BAE5C /* LasVegasDicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LasVegasDicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C3B15B2614F9E0003BAE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C3B15F2614F9E0003BAE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,26 +30,10 @@
 		39C3B1642614F9E2003BAE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C3B1672614F9E2003BAE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C3B1692614F9E2003BAE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39C3B16E2614F9E2003BAE5C /* LasVegasDiceeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LasVegasDiceeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39C3B1792614F9E2003BAE5C /* LasVegasDiceeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LasVegasDiceeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		39C3B1552614F9E0003BAE5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C3B16B2614F9E2003BAE5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C3B1762614F9E2003BAE5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				39C3B1582614F9E0003BAE5C /* LasVegasDicee.app */,
-				39C3B16E2614F9E2003BAE5C /* LasVegasDiceeTests.xctest */,
-				39C3B1792614F9E2003BAE5C /* LasVegasDiceeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +66,7 @@
 				39C3B15B2614F9E0003BAE5C /* AppDelegate.swift */,
 				39125AC52AFBCA8D0012694A /* Constants.swift */,
 				397345EC2A9BA981006D6FDC /* UIColot+Extension.swift */,
+				39812A192CBD5F72006EDB3E /* DiceImageHelper.swift */,
 				39C3B15F2614F9E0003BAE5C /* ViewController.swift */,
 				39C3B1612614F9E0003BAE5C /* Main.storyboard */,
 				39C3B1662614F9E2003BAE5C /* LaunchScreen.storyboard */,
@@ -128,62 +96,19 @@
 			productReference = 39C3B1582614F9E0003BAE5C /* LasVegasDicee.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39C3B16D2614F9E2003BAE5C /* LasVegasDiceeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39C3B1852614F9E2003BAE5C /* Build configuration list for PBXNativeTarget "LasVegasDiceeTests" */;
-			buildPhases = (
-				39C3B16A2614F9E2003BAE5C /* Sources */,
-				39C3B16B2614F9E2003BAE5C /* Frameworks */,
-				39C3B16C2614F9E2003BAE5C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39C3B1702614F9E2003BAE5C /* PBXTargetDependency */,
-			);
-			name = LasVegasDiceeTests;
-			productName = DiceTests;
-			productReference = 39C3B16E2614F9E2003BAE5C /* LasVegasDiceeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		39C3B1782614F9E2003BAE5C /* LasVegasDiceeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39C3B1882614F9E2003BAE5C /* Build configuration list for PBXNativeTarget "LasVegasDiceeUITests" */;
-			buildPhases = (
-				39C3B1752614F9E2003BAE5C /* Sources */,
-				39C3B1762614F9E2003BAE5C /* Frameworks */,
-				39C3B1772614F9E2003BAE5C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39C3B17B2614F9E2003BAE5C /* PBXTargetDependency */,
-			);
-			name = LasVegasDiceeUITests;
-			productName = DiceUITests;
-			productReference = 39C3B1792614F9E2003BAE5C /* LasVegasDiceeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		39C3B1502614F9E0003BAE5C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Julieta Fernandez Irujo";
 				TargetAttributes = {
 					39C3B1572614F9E0003BAE5C = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					39C3B16D2614F9E2003BAE5C = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 39C3B1572614F9E0003BAE5C;
-					};
-					39C3B1782614F9E2003BAE5C = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 39C3B1572614F9E0003BAE5C;
 					};
 				};
 			};
@@ -201,8 +126,6 @@
 			projectRoot = "";
 			targets = (
 				39C3B1572614F9E0003BAE5C /* LasVegasDicee */,
-				39C3B16D2614F9E2003BAE5C /* LasVegasDiceeTests */,
-				39C3B1782614F9E2003BAE5C /* LasVegasDiceeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,20 +141,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39C3B16C2614F9E2003BAE5C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C3B1772614F9E2003BAE5C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,38 +152,12 @@
 				39125AC62AFBCA8D0012694A /* Constants.swift in Sources */,
 				39C3B1602614F9E0003BAE5C /* ViewController.swift in Sources */,
 				397345ED2A9BA981006D6FDC /* UIColot+Extension.swift in Sources */,
+				39812A1A2CBD5F72006EDB3E /* DiceImageHelper.swift in Sources */,
 				39C3B15C2614F9E0003BAE5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39C3B16A2614F9E2003BAE5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C3B1752614F9E2003BAE5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		39C3B1702614F9E2003BAE5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39C3B1572614F9E0003BAE5C /* LasVegasDicee */;
-			targetProxy = 39C3B16F2614F9E2003BAE5C /* PBXContainerItemProxy */;
-		};
-		39C3B17B2614F9E2003BAE5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39C3B1572614F9E0003BAE5C /* LasVegasDicee */;
-			targetProxy = 39C3B17A2614F9E2003BAE5C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		39C3B1612614F9E0003BAE5C /* Main.storyboard */ = {
@@ -333,6 +216,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -394,6 +278,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -454,86 +339,6 @@
 			};
 			name = Release;
 		};
-		39C3B1862614F9E2003BAE5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DiceTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jfernandezirujo.DiceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LasVegasDicee.app/LasVegasDicee";
-			};
-			name = Debug;
-		};
-		39C3B1872614F9E2003BAE5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DiceTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jfernandezirujo.DiceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LasVegasDicee.app/LasVegasDicee";
-			};
-			name = Release;
-		};
-		39C3B1892614F9E2003BAE5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DiceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jfernandezirujo.DiceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Dice;
-			};
-			name = Debug;
-		};
-		39C3B18A2614F9E2003BAE5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DiceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jfernandezirujo.DiceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Dice;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -551,24 +356,6 @@
 			buildConfigurations = (
 				39C3B1832614F9E2003BAE5C /* Debug */,
 				39C3B1842614F9E2003BAE5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		39C3B1852614F9E2003BAE5C /* Build configuration list for PBXNativeTarget "LasVegasDiceeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39C3B1862614F9E2003BAE5C /* Debug */,
-				39C3B1872614F9E2003BAE5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		39C3B1882614F9E2003BAE5C /* Build configuration list for PBXNativeTarget "LasVegasDiceeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39C3B1892614F9E2003BAE5C /* Debug */,
-				39C3B18A2614F9E2003BAE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

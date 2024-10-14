@@ -6,11 +6,13 @@
 //  Copyright © 2023 Julieta Fernandez Irujo. All rights reserved.
 //
 
-import UIKit
+import UIKit.UIColor
 
 extension UIColor {
-  static let customRed: UIColor = UIColor(displayP3Red: 142 / 255,
-                                          green: 41 / 255,
-                                          blue: 37 / 255,
-                                          alpha: 1)
+
+  // MARK: - Properties
+  static let customRed: UIColor = UIColor(displayP3Red: Constants.redValue / Constants.colorValue,
+                                          green: Constants.greenValue / Constants.colorValue,
+                                          blue: Constants.blueValue / Constants.colorValue,
+                                          alpha: Constants.alphaOne)
 }
