@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		39125AC62AFBCA8D0012694A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39125AC52AFBCA8D0012694A /* Constants.swift */; };
 		394958FC2B868F0400741BE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394958FB2B868F0400741BE1 /* SceneDelegate.swift */; };
+		3952E6502D80E8DE008DC346 /* DiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952E64F2D80E8DE008DC346 /* DiceModel.swift */; };
 		397345ED2A9BA981006D6FDC /* UIColot+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397345EC2A9BA981006D6FDC /* UIColot+Extension.swift */; };
-		39812A1A2CBD5F72006EDB3E /* DiceImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39812A192CBD5F72006EDB3E /* DiceImageHelper.swift */; };
+		39812A1A2CBD5F72006EDB3E /* DiceImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39812A192CBD5F72006EDB3E /* DiceImageProvider.swift */; };
 		39C3B15C2614F9E0003BAE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3B15B2614F9E0003BAE5C /* AppDelegate.swift */; };
-		39C3B1602614F9E0003BAE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3B15F2614F9E0003BAE5C /* ViewController.swift */; };
+		39C3B1602614F9E0003BAE5C /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3B15F2614F9E0003BAE5C /* DiceViewController.swift */; };
 		39C3B1632614F9E0003BAE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3B1612614F9E0003BAE5C /* Main.storyboard */; };
 		39C3B1652614F9E2003BAE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C3B1642614F9E2003BAE5C /* Assets.xcassets */; };
 		39C3B1682614F9E2003BAE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3B1662614F9E2003BAE5C /* LaunchScreen.storyboard */; };
@@ -21,11 +22,12 @@
 /* Begin PBXFileReference section */
 		39125AC52AFBCA8D0012694A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		394958FB2B868F0400741BE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3952E64F2D80E8DE008DC346 /* DiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceModel.swift; sourceTree = "<group>"; };
 		397345EC2A9BA981006D6FDC /* UIColot+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColot+Extension.swift"; sourceTree = "<group>"; };
-		39812A192CBD5F72006EDB3E /* DiceImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceImageHelper.swift; sourceTree = "<group>"; };
+		39812A192CBD5F72006EDB3E /* DiceImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceImageProvider.swift; sourceTree = "<group>"; };
 		39C3B1582614F9E0003BAE5C /* LasVegasDicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LasVegasDicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C3B15B2614F9E0003BAE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39C3B15F2614F9E0003BAE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39C3B15F2614F9E0003BAE5C /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		39C3B1622614F9E0003BAE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39C3B1642614F9E2003BAE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C3B1672614F9E2003BAE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,8 +68,9 @@
 				39C3B15B2614F9E0003BAE5C /* AppDelegate.swift */,
 				39125AC52AFBCA8D0012694A /* Constants.swift */,
 				397345EC2A9BA981006D6FDC /* UIColot+Extension.swift */,
-				39812A192CBD5F72006EDB3E /* DiceImageHelper.swift */,
-				39C3B15F2614F9E0003BAE5C /* ViewController.swift */,
+				3952E64F2D80E8DE008DC346 /* DiceModel.swift */,
+				39812A192CBD5F72006EDB3E /* DiceImageProvider.swift */,
+				39C3B15F2614F9E0003BAE5C /* DiceViewController.swift */,
 				39C3B1612614F9E0003BAE5C /* Main.storyboard */,
 				39C3B1662614F9E2003BAE5C /* LaunchScreen.storyboard */,
 				39C3B1642614F9E2003BAE5C /* Assets.xcassets */,
@@ -150,10 +153,11 @@
 			files = (
 				394958FC2B868F0400741BE1 /* SceneDelegate.swift in Sources */,
 				39125AC62AFBCA8D0012694A /* Constants.swift in Sources */,
-				39C3B1602614F9E0003BAE5C /* ViewController.swift in Sources */,
+				39C3B1602614F9E0003BAE5C /* DiceViewController.swift in Sources */,
 				397345ED2A9BA981006D6FDC /* UIColot+Extension.swift in Sources */,
-				39812A1A2CBD5F72006EDB3E /* DiceImageHelper.swift in Sources */,
+				39812A1A2CBD5F72006EDB3E /* DiceImageProvider.swift in Sources */,
 				39C3B15C2614F9E0003BAE5C /* AppDelegate.swift in Sources */,
+				3952E6502D80E8DE008DC346 /* DiceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

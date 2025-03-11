@@ -19,8 +19,6 @@ enum Constants {
   static let imageConrnerRadius: CGFloat = 12
   static let alpha: CGFloat = 0.5
   static let alphaOne: CGFloat = 1
-  static let one: Int = 1
-  static let four: Int = 4
   static let backgroundString: String = "greenBackground"
   static let redValue: CGFloat = 142
   static let greenValue: CGFloat = 41
